@@ -1,4 +1,4 @@
-# Robo-EV-Electrical-Architecture
+# Robo-EV Electrical Architecture
 
 The development of the electronic and electrical architecture has the advantages of improving the overall vehicle electrical performance, maximizing the optimization of product cost, reducing the repeated development of vehicle model platforms, and shortening the vehicle development cycle; it has the characteristics of improving the performance, reliability, and safety of the vehicle's electrical system and reducing the failure rate of the overall vehicle electrical system. The Robo-EV electronic and electrical architecture is a stable and reliable electronic and electrical architecture solution obtained through the analysis of various aspects such as function, performance, cost, and assembly under specific constraints such as market demand input, functional requirements, regulations, and design requirements.
 
