@@ -35,15 +35,11 @@ The second level is the multi-in-one controller, which has 4-way outputs, positi
 The third level is 250A for the motor controller, 50A for the air conditioning compressor and air conditioning electric heating equipment, and 60A for the high-voltage auxiliary equipment.
 
 The high-voltage power distribution architecture diagram is as follows:
-
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde568dd34f46d29411b62faf2e15de7b704ae485ceceedc35ee8c6e1e7f6b7eda22ec177c308ebd530428aaefaf8475675564901a63e241ea9221f2853dd5a00725325dfd7099772b2e28b377bde9a9469a4fb4c8ed7016461c?tmpCode=89cf2e5a-ae15-46ac-bcf6-28de4a761264)
-
+![2](https://github.com/user-attachments/assets/ba46c5b1-7ae6-48b1-a054-45cc4a3d59fd)
 Figure 2 High-Voltage Power Distribution Architecture
 
 ## 2. Bus Network Architecture
 
 The bus network architecture is divided into body CANB, chassis CANC, and intelligent driving CANA. The VCU serves as the communication gateway for the three bus network segments of CANA, CANB, and CANC. There are 3 network nodes including VCU, instrument, and voice robot connected on the body CANB. Among them, 120Ω network termination resistors are configured on the VCU and instrument electronic control units; there are 9 nodes including power battery management system, VCU, motor controller, on-board charger, DCDC controller, braking controller, steering controller, parking controller, and remote control receiver connected on the chassis CANC. Among them, 120Ω termination resistors need to be configured on the VCU and motor controller electronic control units; there are 2 bus nodes including VCU and intelligent driving controller connected on the CANA. Among them, 120Ω termination resistors need to be configured on the VCU and intelligent driving controller electronic control units. The communication rate of intelligent driving CANA, body CANB, and chassis CANC is 500kbit/s. The bus network architecture diagram is as follows:
-
-![](https://alidocs.dingtalk.com/core/api/resources/img/5eecdaf48460cde568dd34f46d29411b62faf2e15de7b704ae485ceceedc35ee8c6e1e7f6b7eda22ec177c308ebd53042ec16c39fcc838f5134269f8552783f6d429ee1bcd6949f634f1df75219562c27e4099129b76c3804fb4c8ed7016461c?tmpCode=89cf2e5a-ae15-46ac-bcf6-28de4a761264)
-
+![3](https://github.com/user-attachments/assets/f88ba66d-5f78-4971-a616-c0fc780be1ae)
 <center>Figure 3 Vehicle Network Architecture</center>
